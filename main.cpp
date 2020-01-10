@@ -38,7 +38,7 @@ int main()
             //cat->getNumberFood(catFood);
 
            catPopulation=cat->animalCross();
-           snakePopulation=snake->animalCross();
+           /*snakePopulation=snake->animalCross();
 
                 if (catPopulation>=500)
                 {
@@ -58,7 +58,7 @@ int main()
 
         }
 
-
+	*/
 
         cout <<"Au bout de " << cycles << " mois et de " << catFood << " nourritures pour chat, on dénombre "<<catPopulation<< " chats et" <<snakePopulation<<" serpent(s)\n"<< endl;
     }
